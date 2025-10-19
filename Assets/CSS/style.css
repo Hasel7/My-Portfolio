@@ -9,8 +9,27 @@
 .project-card:hover {
 	box-shadow: 0 4px 32px 0 #7c4dff44;
 }
-.project-image {
+/* .project-image {
 	background: linear-gradient(180deg, #f8f8fa 60%, #181828 100%);
+} */
+.project-image i.bi-image {
+	display: none;
+}
+.project-image img.project-img {
+	object-fit: cover;
+	z-index: 0;
+	top: 0;
+	left: 0;
+}
+.project-image::before {
+	/* subtle overlay to help text contrast */
+	content: '';
+	position: absolute;
+	inset: 0;
+	/* background: linear-gradient(180deg, rgba(255,255,255,0.7) 0%, rgba(0,0,0,0.65) 60%); */
+	/* background-color: #0a0d13; */
+	pointer-events: none;
+	z-index: 1;
 }
 .project-pill {
 	display: inline-block;

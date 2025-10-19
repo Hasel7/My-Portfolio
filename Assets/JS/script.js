@@ -46,13 +46,15 @@ let skills = [
     { name: "CSS" },
     { name: "JavaScript" },
     { name: "React" },
+    { name: "TypeScript" },
     { name: "Tailwind CSS" },
     { name: "Bootstrap" },
     { name: "Git" },
     { name: "GitHub" },
     { name: "VS Code" },
     { name: "Figma" },
-    { name: "Vercel" }
+    { name: "Vercel" },
+    { name: "Netlify" }
 ];
 
 skills.forEach(function (skill) {
@@ -75,6 +77,14 @@ let projects = [
     },
 
     {
+        title: "E-Commerce Product Page",
+        description: "A product page for an e-commerce website showcasing various products.",
+        imageUrl: "https://i.ibb.co/S4Vsymyw/image.png",
+        projectUrl: "https://jayniecollection.netlify.app/",
+        technologies: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Vercel", "GitHub"]
+    },
+
+    {
         title: "Calculator App",
         description: "A simple calculator app with basic arithmetic operations.",
         imageUrl: "assets/calculator.png",
@@ -85,8 +95,8 @@ let projects = [
     {
         title: "To-Do List",
         description: "A to-do list app to help users manage their tasks effectively.",
-        imageUrl: "assets/todo.png",
-        projectUrl: "https://hasel-todo.vercel.app/",
+        imageUrl: "https://i.ibb.co/TqRKMw6Y/image.png",
+        projectUrl: "https://moderntodolistapp.netlify.app/",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Vercel", "GitHub"]
     },
 
@@ -136,17 +146,18 @@ let projects = [
         imageUrl: "assets/stopwatch.png",
         projectUrl: "https://hasel-stopwatch.vercel.app/",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Vercel", "GitHub"]
-    }
+    },
+
+    
 ];
 
 projects.forEach(function (project) {
     projectsContainer.innerHTML +=
         `<div class="project-card rounded-4 overflow-hidden" style="max-width: 480px; width: 100%;">
                 <div class="project-image position-relative" style="background: linear-gradient(180deg, #f8f8fa 60%, #181828 100%); height: 200px; display: flex; align-items: center; justify-content: center;">
-                    <i class="bi bi-image" style="font-size: 3rem; color: #b3b3c3;"></i>
-                    <img src="${project.imageUrl}" alt="${project.title}" class="img-fluid position-absolute top-0 start-0 w-100 h-100 object-fit-cover" style="opacity: 0.9;">
+                    <img src="${project.imageUrl}" alt="${project.title}" loading="lazy" onerror="this.onerror=null;this.src='Assets/IMAGES/placeholder.png'" class="img-fluid position-absolute top-0 start-0 w-100 h-100 project-img" style="opacity: 0.95;">
                     <div class="position-absolute end-0 bottom-0 p-3 d-flex gap-2">
-                        <a href="${project.projectUrl}" class="btn btn-dark btn-sm rounded-3"><i class="bi bi-box-arrow-up-right"></i></a>
+                        <a href="${project.projectUrl}" class="btn btn-dark btn-sm rounded-3" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right"></i></a>
                     </div>
                 </div>
                 <div class="project-content p-4" style="background: #181828;">
@@ -161,7 +172,7 @@ projects.forEach(function (project) {
                         <span class="project-pill">${project.technologies[5]}</span>
                     </div>
                     <div class="d-flex gap-3">
-                        <a href="${project.projectUrl}" class="btn btn-demo flex-grow-1 d-flex align-items-center justify-content-center gap-2"><i class="bi bi-box-arrow-up-right"></i>Live Demo</a>
+                        <a href="${project.projectUrl}" class="btn btn-demo flex-grow-1 d-flex align-items-center justify-content-center gap-2" target="_blank" rel="noopener noreferrer"><i class="bi bi-box-arrow-up-right"></i>Live Demo</a>
                     </div>
                 </div>
             </div>`
