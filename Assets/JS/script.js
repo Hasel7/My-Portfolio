@@ -70,7 +70,7 @@ let projects = [
         title: "Portfolio Website",
         description: "A personal portfolio website to showcase my projects and skills.",
         imageUrl: "https://i.ibb.co/RGwP6tJG/image.png",
-        projectUrl: "https://hasel-portfolio.vercel.app/",
+        projectUrl: "https://haselportfolio.netlify.app/",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Vercel", "GitHub"]
 
 
