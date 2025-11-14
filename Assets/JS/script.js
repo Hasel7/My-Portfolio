@@ -69,7 +69,7 @@ let projects = [
     {
         title: "Portfolio Website",
         description: "A personal portfolio website to showcase my projects and skills.",
-        imageUrl: "assets/portfolio.png",
+        imageUrl: "https://i.ibb.co/RGwP6tJG/image.png",
         projectUrl: "https://hasel-portfolio.vercel.app/",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Vercel", "GitHub"]
 
@@ -87,8 +87,8 @@ let projects = [
     {
         title: "Calculator App",
         description: "A simple calculator app with basic arithmetic operations.",
-        imageUrl: "assets/calculator.png",
-        projectUrl: "https://hasel-calculator.vercel.app/",
+        imageUrl: "https://i.ibb.co/xtqWLv8y/image.png",
+        projectUrl: "https://cal-culator-app-web.netlify.app/",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Vercel", "GitHub"]
     },
 
@@ -103,50 +103,43 @@ let projects = [
     {
         title: "Weather App",
         description: "A weather app that provides real-time weather information for any location.",
-        imageUrl: "assets/weather.png",
-        projectUrl: "https://hasel-weather.vercel.app/",
+        imageUrl: "https://i.ibb.co/xKdDyyv5/image.png",
+        projectUrl: "https://wea-ther-forecast.netlify.app/",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Vercel", "GitHub", "API",]
     },
 
     {
         title: "Sign Up Form",
         description: "A responsive sign-up form with validation and user feedback.",
-        imageUrl: "assets/signup.png",
-        projectUrl: "https://hasel-signup.vercel.app/",
+        imageUrl: "https://i.ibb.co/0VX9PbTb/image.png",
+        projectUrl: "https://sign-up-pag-e.netlify.app/",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Vercel", "GitHub"]
     },
 
     {
         title: "Landing Page",
         description: "A landing page to promote a product or service.",
-        imageUrl: "assets/landing.png",
-        projectUrl: "https://hasel-landing.vercel.app/",
+        imageUrl: "https://i.ibb.co/5X2J6k52/image.png",
+        projectUrl: "https://bizinote.netlify.app/",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Vercel", "GitHub"]
     },
 
     {
         title: "Currency Converter",
         description: "A currency converter app that allows users to convert between different currencies.",
-        imageUrl: "assets/currency.png",
-        projectUrl: "https://hasel-currency.vercel.app/",
+        imageUrl: "https://i.ibb.co/ymsP4pCw/image.png",
+        projectUrl: "https://ratewise-fx.netlify.app/",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Vercel", "GitHub", "API"]
     },
 
     {
         title: "Quote Generator",
         description: "A random quote generator that displays inspirational quotes.",
-        imageUrl: "assets/quote.png",
-        projectUrl: "https://hasel-quote.vercel.app/",
+        imageUrl: "https://i.ibb.co/RkdTpYkh/image.png",
+        projectUrl: "https://quote-gen-app.netlify.app/",
         technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Vercel", "GitHub", "API"]
     },
 
-    {
-        title: "Stopwatch App",
-        description: "A simple stopwatch app to track elapsed time.",
-        imageUrl: "assets/stopwatch.png",
-        projectUrl: "https://hasel-stopwatch.vercel.app/",
-        technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Vercel", "GitHub"]
-    },
 
     
 ];
